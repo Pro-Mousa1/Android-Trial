@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        app:srcCompat="@drawable/adventure" />
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#2BE80A"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adventure Tour" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:id="@+id/mTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel and tour to Kenya National Parks to see the heritage of the nature. Game drive is the most interesting tour to take your family on vacation." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/mBtnReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            app:backgroundTint="@color/teal_200" />
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/mBtnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            app:backgroundTint="@android:color/holo_orange_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="106dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/instagram" />
+    </LinearLayout>
+
+</LinearLayout>
